@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<style>
+        body{
+          background-color: #66CDAA;
+        }
+    </style>
+</head>
+<body>
+	<center>
+		<div class="box">
+			<h1><font face="Comic Sans MS"> Cadastro do Usuário </font></h1>
+
+			<form class="form" action="" method="POST">
+
+				<input type="hidden" name="login" value="true">
+
+				<label for="input_nome_participante">Nome</label> <br>
+				<input id="input_nome_participante" type="text" name="nome_participante" placeholder="Nome completo"> <br>
+
+				<label for="input_email_participante">E-mail</label><br>
+				<input id="input_email_participante" type="email" name="email_participante" placeholder="exemplo@academico.ifpb.edu.br"><br>
+
+				<label for="input_telefone_participante">Telefone</label><br> 
+				<input id="input_telefone_participante" type="tel" name="telefone_participante"><br>
+
+				<label for="input_datanasc_participante">Data de Nascimento</label> <br>
+				<input id="input_datanasc_participante" type="date" name="datanasc_participante"><br>
+
+				<label for="input_usuario_participante">Usuario</label> <br>
+				<input id="input_usuario_participante" type="text" name="usuario_participante"><br>
+		
+				<label for="input_senha_participante">Senha</label> <br>
+				<input id="input_senha_participante" type="password" name="senha_participante" minlength="8" required><br>
+
+
+				<br><button type="submit">Cadastrar</button><br>
+				
+			</form>
+	</center>
+</body>
+</html>
